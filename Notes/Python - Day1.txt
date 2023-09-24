@@ -1,0 +1,4 @@
+KEYBOARD SHORTCUTs:
+
+To reate a new file or new tab we do use -> Command+N
+To save the file we use - command S

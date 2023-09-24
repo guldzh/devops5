@@ -1,0 +1,57 @@
+A variable in programming is like a container where we can store the data. 
+
+There are 3 main reasons why we use variables:
+- Storage -> variables allow us to store data that we use and modify later.
+- Readibility -> makes our code easier to understand and debug and find what the data 
+                 represents
+- Reusibility -> once the value is stored in a variable, you can use that variables 
+                 multiple times in different parts of your code
+
+Formula of the Variable creation:
+ variablename = value
+
+Naming a variable rules:
+      - variable name cannot start with the number
+      - it can not have space in between words
+      - it can only contain alphanumeric chars and underscore 
+      - variable names are case sensitive
+
+Naming Conventions:
+    - convention is how do you name thevariables. 
+    - Therwe are 4 different types of nameing conventuons:
+       1. CamelCase - firstName
+       2. Pascal Case - FirstName
+       3. Snake Case - first_name (most of python users uses this naming)
+       4. Kebab Case - first-name 
+
+NOTE: when creating the variable, type of variable is auto unerstood by python.
+
+Type of Nmerical Variables:
+        1. Integers - represents whole numbers. Ex: age = 25
+        2. Float - represents real numbers. (numbers with decimal points)
+        3. Complex - represent complex numbers that has both imaginary and real parts. 
+           Ex: 5+4j-> 5 is the real part and the 4j is the imaginary part
+
+
+Type Function -> is a built in python function used to determine the data type of variable.
+It helps debugging. Useful when learning, it helps to understand how python works with datatypes
+Ex: a=10
+    print(type(a)) # Output <class 'int'>
+    a=10.1
+    print(type(a)) # Output <class 'float'>
+
+Creating multiple variables in Single Line: 
+We can define multiple variables on ansingle line, by seperating them with commas.
+Syntax: a,b,c =1.1, 1, "h" 
+
+Assinging multiple Variables with a same value
+Ex: a=b=c=d=5 -> all variables here will be assigned 
+                 with a value 5 and a type for all variables will be int
+
+Reassignment in python
+    After variables assigned with the value, we can assign a new value to them
+    Ex: var1=6
+        var1=10
+
+
+
