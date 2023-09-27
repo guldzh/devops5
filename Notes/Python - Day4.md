@@ -53,3 +53,28 @@ For ex: `5 == "5"` is `False` becasue one is string and the other is a one type
 - **We can chain the comparison operators in python**
 ```py
 print(1<2<3)```
+
+## Note!
+-'True' numerically is 1 and the false is numerically equals to 0
+- For ex:
+    ```py
+    print(int(True)) # output will be 1
+    print(int(False)) # output will be 0
+    # When using comparison operators between bool and int type
+    # python auto-converts bool type to int
+    print(True==1) #True
+    print(True>False) #True
+    print (False<3) #True
+    ```
+
+##Converting other types to Boolean
+- **bool()** function
+```py
+b=bool(-2)
+print(b) #True
+b1=bool(0)
+print(b1) #False
+ ```
+ ### Every number except 0 will result in True
+
+ 

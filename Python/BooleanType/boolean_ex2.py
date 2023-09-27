@@ -3,5 +3,5 @@
 #Note! 0 is either a positive nor is negative
 
 number= -1
-is_positive=number > 0 
+is_positive=number % 2 > 0 
 print(is_positive)
