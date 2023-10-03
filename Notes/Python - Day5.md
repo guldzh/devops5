@@ -37,3 +37,19 @@ print(False and False) #False
 print( False or True and False) #  False
 #Note: not operator will be executed before the `and` and `or` operators.
 
+# Immutablity
+- All numerical data types in python are immutable which means their value will not be modified in any case other than reassignment.
+
+# escape Characters in String
+- If you wnat to add unallowed chaarachters to the string (text) ypu can use backlash \ to insert those unallowed chanarchters.
+# in python we cant use " if the text is defined in "" (double quotes)
+
+print("\"") #prints " only
+print('\'') #prints ' only
+print('"')#prints " only
+print("'")#prints ' only
+
+# Note!
+- Any boolean variable 
+
+

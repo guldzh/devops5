@@ -1,3 +1,7 @@
+# Write a program that will take a given amount of 
+# money and return the number of dollars in quarters, dimes, nickels, and pennies 
+# that make up that given amount
+
 balance=float(input("Please enter your balance: "))
 balance_in_pennies=balance*100
 

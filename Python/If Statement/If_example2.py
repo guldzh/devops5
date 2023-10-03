@@ -6,4 +6,3 @@ if user_input%2==0:
 elif user_input%2!=0:
     print("You entered an odd Number!")
 
-print("Hello","Hello")
